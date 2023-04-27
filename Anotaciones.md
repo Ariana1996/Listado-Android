@@ -57,3 +57,13 @@ const renderItem = ({ item }) => (
 
   Modal animationType -> modo en que aparece la ventana
   el modal en sí no tiene estilos, si no el contenedor interno
+
+modificación de inicio de programa: 
+dentro del programa index
+import { registerRootComponent } from "expo";
+import App from "./src/index";
+registerRootComponent(App);
+
+  remover linea main de package.json
+
+patrón modular para orden de carpetas.
